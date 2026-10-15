@@ -1,0 +1,30 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.awerial.packeditor.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"InGameHudMixin",
+		"SkyRenderingMixin",
+		"FogRendererMixin",
+		"SpecialItemModelMixin",
+		"ShieldModelRendererMixin",
+		"ClientPlayNetworkHandlerMixin",
+		"PlayerEntityRendererMixin",
+		"OverlayTextureMixin",
+		"MinecraftClientMixin",
+		"EntityMixin",
+		"ParticleManagerMixin",
+		"InGameOverlayRendererMixin",
+		"HeldItemRendererMixin",
+		"ClientPlayerInteractionManagerMixin",
+		"LivingEntityRendererMixin",
+		"EquipmentRendererMixin",
+		"BlockRenderLayersMixin",
+		"ItemStackMixin",
+		"PlayerListHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}

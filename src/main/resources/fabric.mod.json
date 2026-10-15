@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "awerialspackeditor",
+	"version": "${version}",
+	"name": "Awerial's Pack Editor",
+	"description": "Mix and match textures for PvP items (end crystals, anchors, totems, obsidian, pearls, gaps, netherite) from built-in styles and your own resource packs.",
+	"authors": ["Awerial"],
+	"license": "free to skid",
+	"icon": "assets/awerialspackeditor/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.awerial.packeditor.PackEditorClient"],
+		"modmenu": ["com.awerial.packeditor.ModMenuIntegration"]
+	},
+	"mixins": ["awerialspackeditor.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.17.0",
+		"fabric-api": "*",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}
